@@ -27,6 +27,7 @@ createUnit('worker', 1, startLocation(1))
 createUnit('guard_', 1, startLocation(1))
 createUnit('archer_', 1, startLocation(1))
 createUnit('catapult_', 1, startLocation(1))
+createUnit('cow', 1, startLocation(1))
                         
 			giveResource('gold', 1, 500); 
 			giveResource('wood', 1, 500);
@@ -46,6 +47,7 @@ createUnit('guard', 0, startLocation(0))
 createUnit('slave', 0, startLocation(0))
 createUnit('slave', 0, startLocation(0))
 createUnit('slave', 0, startLocation(0))
+createUnit('cow', 0, startLocation(0))
                         
 			giveResource('gold', 0, 500); 
 			giveResource('wood', 0, 500);
@@ -79,6 +81,8 @@ createUnit('spearman', 3, startLocation(3))
 createUnit('spearman', 3, startLocation(3))
 createUnit('spearthrower', 3, startLocation(3))
 createUnit('farm', 3, startLocation(3))
+createUnit('chicken', 3, startLocation(3))
+
                         
 			giveResource('gold', 3, 500); 
 			giveResource('wood', 3, 500);
